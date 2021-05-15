@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Conversor de Moeda"
+       android:textSize="30sp"
+       android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_valoreuros"
+        android:hint="Insira um valor Euros"
+        android:gravity="center"
+        android:inputType="numberDecimal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_Kwanza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:text="Kwanza" />
+
+        <Button
+            android:id="@+id/bt_dolar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:text="Dólar" />
+
+        <Button
+            android:id="@+id/bt_real"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:text="Real" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Desenvolvido por Rodrigo Manuel" />
+
+
+</LinearLayout>
